@@ -5,8 +5,9 @@ character_age = "35"
 ##this shows a boolian
 is_male = True
 
+character_age = 22
 
-print("My name is " + character_name + " and my age is " + character_age)
+print("My name is " + character_name + " and my age is " + str(character_age))
 
 
 
