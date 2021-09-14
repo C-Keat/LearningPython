@@ -21,6 +21,28 @@ print(friends)
 friends.remove("Jim")
 print(friends)
 
+#pop() gets ride of the top item of the list
+friends.pop()
+print(friends)
+
+#the index() can be used to find if there is a value inside of the list, tells me the index pos
+print(friends.index("Kevin"))
+
+#the count() allows you to find out how many elements in a list have that value
+print(friends.count("Karen"))
+
+#sort() allows the list to be sorted in alphabetical order for stings and assending order for ints
+lucky_numbers.sort()
+print(lucky_numbers)
+
+#reverse() allows you to reverse the items in a list
+lucky_numbers.reverse()
+print(lucky_numbers)
+
+#copy() allows you to copy a list to another list
+friends2 = friends.copy()
+print(friends2)
+
 #the clear() clears lists of there contence
 friends.clear()
 print(friends)
