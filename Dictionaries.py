@@ -16,3 +16,10 @@ monthConverstions = {
     "Nov": "November",
     "Dec": "December",
 }
+#how to print one of the keys
+print(monthConverstions["Nov"])
+
+#another way to print some of the keys, this is better practice
+print(monthConverstions.get("Jul"))
+#best practice due to the printing on None if they key is not found
+print(monthConverstions.get("lov", "Not a valid key"))
