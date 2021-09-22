@@ -16,3 +16,13 @@ except ZeroDivisionError:
     print("Divided by zero error")
 except ValueError:
     print("Wrong value error")
+
+try:
+    fail = 1/0
+    number = int(input("Enter a number: "))
+    print(number)
+#this except methord allows you to catch spesific types of errors that could accure and save the error message as a varriable
+except ZeroDivisionError as err:
+    print(err)
+except ValueError:
+    print("Wrong value error")
