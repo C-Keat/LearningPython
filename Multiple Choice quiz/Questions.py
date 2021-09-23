@@ -7,8 +7,6 @@ questions_prompts = [
     "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
 ]
 
-
-
 questions = [
     Question(questions_prompts[0], "a"),
     Question(questions_prompts[1], "c"),
